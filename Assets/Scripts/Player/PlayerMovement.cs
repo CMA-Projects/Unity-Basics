@@ -1,8 +1,3 @@
-// using Microsoft.CSharp.RuntimeBinder;
-using System.ComponentModel;
-// using System.ComponentModel.DataAnnotations.Schema;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
