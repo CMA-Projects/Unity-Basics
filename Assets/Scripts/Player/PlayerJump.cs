@@ -20,7 +20,7 @@ public class PlayerJump : MonoBehaviour
     {
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
         }
     }
 
